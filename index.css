@@ -1,0 +1,175 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 1% 15%;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 63.98px;
+  margin-bottom: 1%;
+}
+
+.recipe-desc {
+  display: flex;
+}
+
+svg {
+  margin-top: 0.3%;
+}
+
+.recipe-desc p {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  color: #4f4f4f;
+  width: 43%;
+  margin: 0 0 4% 1%;
+}
+
+img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.recipe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+aside {
+  height: 45vh;
+  width: 20%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.aside-section {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fa-utensils,
+.fa-clock {
+  margin-right: 5%;
+  font-size: 30px;
+  color: #4f4f4f;
+}
+
+.fa-clock {
+  display: flex;
+  align-items: center;
+}
+
+.aside-section div {
+  display: flex;
+  flex-direction: column;
+}
+
+aside span {
+  font-size: 10px;
+  font-weight: 700;
+  color: #bdbdbd;
+  line-height: 12.19px;
+}
+
+.amount {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+  line-height: 17.07px;
+
+  margin: 5% 0;
+}
+
+.orange-icon,
+.orange-span {
+  color: #f2994a;
+}
+
+.ingredients-and-instructions {
+  width: 44%;
+}
+
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #333333;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.99px;
+  margin: 0%;
+}
+
+h3 {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 23.99px;
+  font-weight: 400;
+  margin: 7% 0;
+}
+
+.ingredient {
+  display: flex;
+  margin: 3% 0;
+}
+
+.box {
+  min-width: 21px;
+  height: 21px;
+  border: 1px solid #828282;
+  border-radius: 4px;
+  margin-right: 2%;
+}
+
+li {
+  font-size: 16px;
+  margin: 3% 0;
+  line-height: 24px;
+}
+
+.instruction {
+  display: flex;
+  margin: 5% 0;
+}
+
+.number {
+  min-width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  background-color: #f2994a;
+  border-radius: 6px;
+  margin-right: 3%;
+}
+
+.instruction p,
+.ingredient p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.recipe-source {
+  font-size: 16px;
+  font-style: italic;
+  color: #bdbdbd;
+  margin: 10% 0;
+}
